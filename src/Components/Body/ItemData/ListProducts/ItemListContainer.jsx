@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { ItemList } from "./ItemList";
 import dataItemsJSON from "../../../../BBDD/dataItems.json";
 import { Loading } from "../../../Loading";
-import Services from "./Services";
 
 
 export const ItemListContainer = () => {
@@ -22,16 +21,9 @@ export const ItemListContainer = () => {
         })
     }, [id])
 
-    const DesvioService = loading ? <Loading /> : <Services /> 
-    const DesvioItemlist = loading ? <Loading /> : <ItemList items={items} />
-
     return (
-
         <div className="container">
-
-            {dataItemsJSON.filter(item => item.category == "service") ?  DesvioItemlist : DesvioService}
-             
+            {loading ? <Loading /> : <ItemList items={items} />}
         </div>
-
     )
 };
