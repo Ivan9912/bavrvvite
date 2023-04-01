@@ -124,7 +124,7 @@ code {
   color: #bf9a15;
 }
 
-.navColorLetter:nth-child(2) {
+.navColorLetter:nth-child(3) {
   margin-right: 30px;
 }
 
@@ -141,13 +141,8 @@ code {
   width: 19px;
   height: 19px;
   padding-right: 2px;
-  /* background-color: white; */
   border-radius: 5px;
 }
-
-/* .navColorLetter:active {
-  color: #bf9a15;
-} */
 
 .navColorLogo {
   background-color: #000000;
@@ -157,7 +152,6 @@ code {
   width: 20% !important;
 }
 
-
 /* @MEDIAQUERIES */
 
 @media screen and (min-width: 300px) and (max-width: 479px){
@@ -165,10 +159,3 @@ code {
     content: url("https://i.imgur.com/QyyQAjn.jpg") !important;
   }
 }
-
-/* @media screen and (min-width: 300px) and (max-width: 479px)
-{
-   .classFooter2 {
-    display: none;
-  }
-} */
