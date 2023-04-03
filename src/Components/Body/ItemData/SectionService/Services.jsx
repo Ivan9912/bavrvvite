@@ -2,7 +2,7 @@
 import ServiceJson from "../../../../BBDD/services.json"
 
 const Services = () => {
-    console.log(ServiceJson);
+
     return (
         <div>
             {ServiceJson.map(service => (
