@@ -338,5 +338,39 @@
             "La función Energy Navigator analiza el consumo e identifica operaciones ineficientes.",
             "Los usuarios autorizados pueden controlar centralmente unidades de aire individuales."
         ]
+    },
+    {
+        "index": "11",
+        "category": "Service",
+        "title": "Departamento de Servicios Daikin",
+        "details": ["¿Cómo podemos ayudarte?"],
+        "img":[ "/img/services-id1.png"]    },
+    {
+        "index": "12",
+        "category": "Service",
+        "title": "Servicio de diagnóstico y reparación",
+        "details": ["Cuando un equipo deja de funcionar es fundamental identificar a causa del problema para poder realizar una correcta reparación. Para ello, nuestro Dpto. de Servicios dispone de técnicos e ingenieros bien entrenados y experimentados que, utilizando herramientas especiales, realizan visitas de diagnóstico y de reparación de todas nuestras líneas (equipos residenciales, comerciales e industriales)."],
+        "img": ["/img/services-id1.png"]
+    },
+    {
+        "index": "13",
+        "category": "Service",
+        "title": "Servicio de mantenimiento",
+        "details": ["Con el fin de garantizar el buen funcionamiento de los equipos y así poder maximizar su vida útil, es necesario aplicar en forma periódica ciertas rutinas de mantenimiento. De esta forma, nuestro Dpto. de Servicios ofrece diferentes modalidades de mantenimientos que se ajustan a las necesidades de cada usuario en particular."],
+        "img": ["/img/services-id2.png"]
+    },
+    {
+        "index": "14",
+        "category": "Service",
+        "title": "Venta de repuestos",
+        "details": ["Sabiendo lo importante que resulta tener un repuesto cuando se lo necesita, nuestro Dpto. de Servicios está ampliando su stock de partes. Con personal idóneo y experimentado, nuestro sector de repuestos atiende las consultas de distribuidores, instaladores, contratistas y usuarios finales."],
+        "img": ["/img/services-id3.png"]
+    },
+    {
+        "index": "15",
+        "title": "Garantías",
+        "category": "Service",
+        "details": ["Para hacer frente a los casos en los cuales un equipo falla dentro de su período de garantía, nuestro Dpto. de Servicios dispone de técnicos calificados para realizar un diagnóstico rápido y preciso."],
+        "img": ["/img/services-id4.png"]
     }
 ]
